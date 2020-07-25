@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class MakingCoffeeEx1 {
+public class MakingCoffee {
 
     public static void main(String[] args) {
         int waterPerCup = 200;
@@ -11,12 +11,15 @@ public class MakingCoffeeEx1 {
         System.out.print("> ");
         Scanner value = new Scanner (System.in);
         int waterValue = value.nextInt();
+
         System.out.println("Write how many ml of milk the coffee machine has: ");
         System.out.print("> ");
         int milkValue = value.nextInt();
+
         System.out.println("Write how many grams of coffee beans the coffee machine has: ");
         System.out.print("> ");
         int coffeeBeansValue = value.nextInt();
+
         System.out.println("Write how many cups of coffee you will need: ");
         System.out.print("> ");
 
